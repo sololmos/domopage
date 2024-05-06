@@ -1,0 +1,69 @@
+.container{
+    margin-right: 0;
+    overflow: hidden;
+}
+
+
+.imgbk {
+    background-size: cover;
+    padding: 0;
+    scale: 1.1;
+    z-index: -1;
+   
+} 
+
+
+
+.intro h1 {
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+
+.intro p {
+    font-size: 1.25rem;
+    opacity: 0.7;
+}
+
+.intro .btn {
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.title {
+    text-align: left;
+}
+
+.parraf {
+    text-align: left;
+}
+.botones{
+    align-items: flex-start !important;
+}
+
+.left-col{
+    padding: 40px;
+    align-items: flex-start;
+}
+
+
+@media (max-width: 768px) {
+    .col-md-6 {
+      position: relative; /* Asegura que la posición relativa esté definida para el contenedor de la imagen */
+      z-index: 0; /* Asegura que la imagen tenga un z-index positivo en pantallas más pequeñas */
+    }
+  
+    .imgbk {
+      position: absolute; /* Ajusta la posición absoluta para la imagen */
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1; /* Aplica un z-index negativo para que la imagen quede detrás del contenido */
+    }
+
+    .botones{
+        flex-direction: column;
+    }
+
+
+  }
