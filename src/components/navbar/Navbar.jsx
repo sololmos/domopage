@@ -5,7 +5,7 @@ import square from "./square.svg"
 
 export default function Navbar() {
   return (
-    <div className="container navbar-custom m-4 mx-auto">
+    <div className="container  sticky-top navbar-custom m-4 mx-auto">
       <nav className="navbar navbar-expand-lg navbar-custom navbar-dark">
         <div className="container">
           <a className="navbar-brand brand-text" href="#">compleet labs</a> {/* Aplicar clase brand-text para el color del texto de la marca */}

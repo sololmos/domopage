@@ -1,0 +1,38 @@
+.tech {
+    padding-top: 200px;
+    height: 550px;
+  }
+  
+  .tech-sub {
+    padding-top: 100px;
+  }
+  
+  .sidetext {
+    margin-top: 25px;
+    max-width: 540px;
+  }
+  
+  .icon {
+    height: 50px;
+    width: 50px;
+  }
+  
+  /* Media queries */
+  @media (max-width: 992px) {
+    .tech {
+      padding-top: 100px;
+      height: 100vh;
+    }
+  
+    .sideicon {
+      max-width: 100%;
+      margin: 20px;
+      padding-top: 30px;
+    }
+  
+    .icon {
+      height: 40px;
+      width: 40px;
+    }
+  }
+  

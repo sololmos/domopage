@@ -1,18 +1,14 @@
-.container{
+.container {
     margin-right: 0;
     overflow: hidden;
 }
-
 
 .imgbk {
     background-size: cover;
     padding: 0;
     scale: 1.1;
     z-index: -1;
-   
-} 
-
-
+}
 
 .intro h1 {
     font-weight: 600;
@@ -36,34 +32,32 @@
 .parraf {
     text-align: left;
 }
-.botones{
+
+.botones {
     align-items: flex-start !important;
 }
 
-.left-col{
+.left-col {
     padding: 40px;
     align-items: flex-start;
 }
 
-
 @media (max-width: 768px) {
     .col-md-6 {
-      position: relative; /* Asegura que la posición relativa esté definida para el contenedor de la imagen */
-      z-index: 0; /* Asegura que la imagen tenga un z-index positivo en pantallas más pequeñas */
-    }
-  
-    .imgbk {
-      position: absolute; /* Ajusta la posición absoluta para la imagen */
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      z-index: -1; /* Aplica un z-index negativo para que la imagen quede detrás del contenido */
+        position: relative;
+        z-index: 0;
     }
 
-    .botones{
+    .imgbk {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+    }
+
+    .botones {
         flex-direction: column;
     }
-
-
-  }
+}

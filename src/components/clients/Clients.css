@@ -1,0 +1,65 @@
+.clients {
+    max-width: 100%;
+    height: 600px;
+}
+
+.client-title {
+    color: var(--third-color);
+
+}
+
+.clients-brand-icon {
+    height: 120px;
+    width: 120px;
+    gap: 50px;
+    margin: 30px;
+}
+
+.clients-brand-icon:last-child {
+    height: 180px;
+    width: 180px;
+
+}
+
+.card-client {
+    height: 400px;
+    width: 650px;
+    background-color: var(--second-color);
+
+}
+
+@media (max-width: 992px) {
+
+    .clients {
+
+        height: 100vh;
+    }
+
+    .client-title {
+        font-size: 20px;
+        margin: 0;
+
+    }
+
+    .clients-brand-icon {
+        height: 70px;
+        width: 70px;
+        gap: 10px;
+        margin: 10px;
+    }
+
+    .clients-brand-icon:last-child {
+        height: 100px;
+        width: 100px;
+
+
+    }
+
+    .client-card {
+        transform: scale(0.8);
+    }
+
+
+
+
+}

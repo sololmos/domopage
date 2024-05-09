@@ -1,0 +1,60 @@
+.service-container {
+  background-color: transparent;
+  margin: 20px;
+  padding: 30px;
+  margin-top: -20px;
+}
+
+.services {
+  padding: 0px 200px;
+}
+
+.card-section {
+  padding: 0px 100px;
+}
+
+.card-body {
+  margin: 10px 0px;
+  padding: 20px;
+  justify-content: center;
+}
+
+.card {
+  margin-bottom: 10px;
+  border-radius: 0;
+}
+
+.btncard {
+  margin-top: 20px;
+}
+
+.card-text {
+  max-width: 100%;
+  line-height: 1.2;
+  font-size: 14px;
+  color: var(--third-color);
+}
+
+@media (max-width: 768px) {
+  .service-container {
+    margin: 20px;
+  }
+  
+  .services {
+    padding: 0px 10px;
+  }
+
+  .services h2 {
+    font-size: 1.5rem;
+  }
+
+  .services p {
+    max-width: 100%;
+    font-size: 0.9rem;
+  }
+  
+  .card-section {
+    padding: 10px;
+    margin: 10px;
+  }
+}

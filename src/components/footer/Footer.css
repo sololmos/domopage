@@ -1,0 +1,46 @@
+.footer-cont {
+  height: 500px;
+  padding-top: 100px;
+}
+
+.title-footer {
+  font-size: 16px !important;
+}
+
+.text-footer {
+  opacity: 0.7;
+  font-size: 12px !important;
+  width: 400px;
+}
+
+.f-icon {
+  height: 20px;
+  width: 20;
+  margin: 5px;
+}
+
+.f-icons {
+  margin: 10px;
+}
+.contact {
+  border-top: 0.5px solid white;
+  width: 100vh;
+  margin: 10px;
+}
+
+.link-contacto {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+@media (max-width: 992px) {
+  .footer-cont {
+    height: 100vh;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 60px;
+  }
+  .points {
+    margin: -1px 0px;
+  }
+}

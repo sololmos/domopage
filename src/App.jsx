@@ -1,23 +1,22 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-// Import all of Bootstrap's JS
-import * as bootstrap from 'bootstrap'
-import Navbar from './components/navbar/Navbar'
-import Intro from './components/intro/Intro'
-
+import "./App.css";
+import Navbar from "./components/navbar/Navbar";
+import Intro from "./components/intro/Intro";
+import Services from "./components/services/Services";
+import Techno from "./components/techno/techno.jsx";
+import Clients from "./components/clients/Clients.jsx";
+import Footer from "./components/footer/Footer.jsx";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-        <Navbar></Navbar>
-        <Intro></Intro>
-      
+      <Navbar></Navbar>
+      <Intro></Intro>
+      <Services></Services>
+      <Techno></Techno>
+      <Clients></Clients>
+      <Footer></Footer>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
