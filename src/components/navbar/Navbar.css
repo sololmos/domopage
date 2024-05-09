@@ -1,10 +1,13 @@
 .container {
-  background-color: transparent;
+   background-color: var(--first-color); 
+  background-color: none;
+
 }
 
 .navbar-custom {
   padding: 0;
-  backdrop-filter: blur(10px);
+  background-color: var(--first-color);
+
 }
 
 .brand-text {
@@ -12,12 +15,14 @@
   font-weight: 500;
 }
 
+
 .nav-link.active {
   color: white !important;
 }
 
 .hire-us-text {
   color: white;
+
 }
 
 .a {
@@ -46,4 +51,5 @@ button {
 
 .navbar-toggler-icon:focus {
   border: 0;
+
 }
